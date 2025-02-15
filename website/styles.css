@@ -1,0 +1,125 @@
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	background-color: #f4f4f4;
+}
+
+header {
+	background-color: #003366;
+	color: white;
+	padding: 20px;
+}
+
+.logo {
+	max-width: 250px;
+	display: block;
+	margin: 0 auto 10px;
+}
+
+.button {
+	display: inline-block;
+	background-color: #ffcc00;
+	color: #003366;
+	padding: 10px 20px;
+	text-decoration: none;
+	font-weight: bold;
+	border-radius: 5px;
+	margin-top: 10px;
+}
+
+.button:hover {
+	color: #0077ee;
+	background-color: #8c7000;
+}
+
+section {
+	padding: 20px;
+	background: white;
+	margin: 20px auto;
+	max-width: 800px;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+	color: #003366;
+}
+
+.directions img {
+	max-width: 100%;
+	height: auto;
+	display: block;
+	margin: 0 auto;
+}
+
+.school-logos, .sponsor-logos {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	gap: 15px;
+}
+
+.school-logos img {
+	max-height: 150px;
+	margin: 10px;
+}
+
+.sponsor-logos img {
+	max-height: 80px;
+	margin: 10px;
+}
+
+.projects {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	max-width: 800px;
+	margin: auto;
+}
+.gallery {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+	gap: 20px;
+	padding: 20px;
+	width: 100%;
+}
+.project-card {
+	background: rgb(222, 222, 222);
+	padding: 15px;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	text-align: center;
+	transition: transform 0.2s ease-in-out;
+}
+.project-card:hover {
+	transform: scale(1.05);
+}
+.project-card img {
+	max-width: 100px;
+	height: auto;
+	border-radius: 10px;
+}
+.project-card h3 {
+	margin: 10px 0;
+}
+.project-card a {
+	display: inline-block;
+	margin-top: 10px;
+	padding: 8px 12px;
+	background: #007BFF;
+	color: white;
+	text-decoration: none;
+	border-radius: 5px;
+}
+.project-card a:hover {
+	background: #0056b3;
+}
+
+footer {
+	background-color: #003366;
+	color: white;
+	padding: 10px;
+	margin-top: 20px;
+}
