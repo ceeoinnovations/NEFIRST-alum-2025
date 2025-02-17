@@ -10,7 +10,7 @@ The user gathers high and low distance data points using the Qwiic twist as a UI
 
 By rotating and pressing the Qwiic Twist sensor, users can collect distance and speed data, which are used to perform a linear regression and subsequently control a robot using a proportional control algorithm based on the collected data.
 
-## line Follower - Reinforcement Learning
+## Path Follower - Reinforcement Learning
 
 The system uses Q-learning, where training data populates a Q-table of state-action pairs. Users can train the robot by pressing the Qwiic Twist, enabling it to learn optimal driving actions, and then test its performance by leveraging learned knowledge.
 
