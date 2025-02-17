@@ -6,7 +6,7 @@ Here are some of the projects you can work on.  (See folders for more informatio
 
 The user gathers high and low distance data points using the Qwiic twist as a UI. The program then utilizes a simple nearest neighbor algorithm to detect and classify objects (as "high" or "low" furniture) based on proximity, adjusting the servo motor position accordingly.
 
-https://github.com/ceeoinnovations/NEFIRST-alum-2025/blob/main/projects/high_low.py
+https://sites.google.com/tufts.edu/ceeoxrp/adapted-projects/nearest-neighbor/high-low-activity
 
 ## Stop Sign - Linear Regression
 
