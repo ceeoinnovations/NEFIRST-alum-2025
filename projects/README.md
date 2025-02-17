@@ -27,3 +27,5 @@ Library and example files to get you started with the Husky lens.
 huskylensPythonLibrary.py
 huskyObjectTracking.py
 huskyLineFollower.py
+
+https://wiki.dfrobot.com/HUSKYLENS_V1.0_SKU_SEN0305_SEN0336
