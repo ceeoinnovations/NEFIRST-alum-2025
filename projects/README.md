@@ -1,6 +1,6 @@
 # Projects
 
-Here are some of the projects you can work on.  (See folders for more information on each project.)
+Here are some of the projects you can work on.  (See links for more information on each project.)
 
 ## High Low - Nearest Neighbor
 
