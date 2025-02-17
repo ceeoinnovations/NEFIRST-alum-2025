@@ -80,7 +80,7 @@ def collect_data(distances, speeds, myTwist):
     i = 0
     while (i == 0):
         if (myTwist.is_pressed()):
-            speed = (myTwist.get_green()/2.5)
+            speed = (myTwist.get_green()/2.55)
             print (speed)
             # Get Distance Measurement
             distance = rangefinder.distance()
