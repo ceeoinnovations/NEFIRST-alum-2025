@@ -2,9 +2,9 @@
 
 Here are help, code snippets, and other resources for helping you code your XRP and complete the challenges.
 
-## Help Topic
+## Qwiic Twist
 
-Description
+See the example code for state selection and throttling with the qwiic twist.
 
 ## Help Topic
 
