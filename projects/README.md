@@ -19,3 +19,11 @@ https://sites.google.com/tufts.edu/ceeoxrp/adapted-projects/linear-regression/st
 The system uses Q-learning, where training data populates a Q-table of state-action pairs. Users can train the robot by pressing the Qwiic Twist, enabling it to learn optimal driving actions, and then test its performance by leveraging learned knowledge.
 
 https://sites.google.com/tufts.edu/ceeoxrp/adapted-projects/reinforcement-learning/path-follower
+
+## Husky Lens
+
+Library and example files to get you started with the Husky lens. 
+
+huskylensPythonLibrary.py
+huskyObjectTracking.py
+huskyLineFollower.py
