@@ -6,9 +6,9 @@ Here are help, code snippets, and other resources for helping you code your XRP 
 
 See the example code for state selection and throttling with the qwiic twist.
 
-## Help Topic
+## Qwiic OLED
 
-Description
+This demo uses the ssd1306 library to run an oled. Please note - this library does not play nicely with the Qwiic libraries!
 
 ## Help Topic
 
