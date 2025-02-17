@@ -131,21 +131,23 @@ def main():
     print('- click on the blue button to collect a data point')
 
     while True:
-        print("Click blue to continue adding data or click purple to start testing your nearest neighbor.")
-        while len(high_list) < 2 or len(low_list) < 2:
+        while len(high_list) < 1 or len(low_list) < 1:
             if check_state(myTwist) == 1:
                 collect_data(high_list, low_list)
-                if len(high_list) >= 2 and len(low_list) >= 2:
+                if len(high_list) >= 1 and len(low_list) >= 1:
                     state_relation(myTwist)
+                    print("Click blue to continue adding data, click purple to start testing.")
                 else:
                     myTwist.set_color(0, 0, 255)
+                    print('- click on the blue button to collect a data point')
 
         print("Click purple to continue testing or click white to exit program.")             
-        while len(high_list) >= 2 and len(low_list) >= 2:
+        while len(high_list) >= 1 and len(low_list) >= 1:
             if check_state(myTwist) == 1:
                 collect_data()
                 reset_twist(myTwist)
                 state_relation(myTwist)
+                print("Click blue to continue adding data, click purple to start testing.")
 
             if check_state(myTwist) == 2:
                 nearestNeighbor(high_list, low_list)
